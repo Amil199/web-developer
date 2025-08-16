@@ -1,0 +1,84 @@
+
+.work-sans-normal {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared desighn */
+.text-span{
+    color: #FD630A;
+}
+.dark-2{
+    color: #474747;
+}
+.btn-primary{
+    background: #b1ef99;
+    font-weight: bold;
+    color: #e7854d;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* header style */
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* nav bar css */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a{
+    text-decoration: none;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner-contant{
+    max-width: 500px;
+}
+
+.banner-gretting{
+     font-size: 45px;
+     font-weight: 600;
+     color: #474747;
+     opacity: 0.6;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    color: #000000;
+}
+.banner-description{
+
+}
+.banner-pro-pic{
+
+}
